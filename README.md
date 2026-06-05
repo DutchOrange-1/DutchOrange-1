@@ -1,9 +1,6 @@
 # Who
 I am a maker. 
 
-# What
-<p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=[DutchOrange-1]&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" /> </p>
-
 # Where
 - Embedded systems 
 - CAD
@@ -33,7 +30,4 @@ I am a maker.
 
 # Stats
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DutchOrange-1&theme=city-lights&date_format=%5BY%20%5DM%20j&mode=weekly)](https://git.io/streak-stats)
-
-# MORE:
-<a href="https://git.io/streak-stats"><img src="./profile/streak.svg" alt="GitHub Streak" /></a>
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DutchOrange-1&theme=dark&date_format=%5BY%20%5DM%20j&mode=weekly)](https://git.io/streak-stats)
