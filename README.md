@@ -28,6 +28,3 @@ I am a maker.
 
 </div>
 
-# Stats
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DutchOrange-1&theme=highcontrast)](https://git.io/streak-stats)
-
