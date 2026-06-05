@@ -1,9 +1,8 @@
-Hey Iam DutchOrange 
-Discord tag: DutchOrange#5551
+# Who
+BEnG-Z
 
-Most are just small projects that I randomly make.
+# What
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?DutchOrange-1=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
-Contact me if you want to do a project, I would love to. 
-
-Mostly work with Embedded systems, or data processing applications. 
-
+# Where
+Somewhere 
