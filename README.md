@@ -30,3 +30,7 @@ I am a maker.
   <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original.svg" title="arduino" **alt="arduino" width="40" height="40"/>
 
 </div>
+
+# Stats
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DutchOrange-1&theme=dark&background=000000)](https://git.io/streak-stats)
