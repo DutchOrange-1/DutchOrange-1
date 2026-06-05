@@ -1,5 +1,5 @@
 # Who
-BEnG-Z
+I am a maker. 
 
 # What
 <p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=[DutchOrange-1]&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" /> </p>
@@ -10,8 +10,9 @@ BEnG-Z
 - PCB / Circuit design
 - 3D Printing (ofc)
 
-# Languages, Programs, Tool
+# Languages, Programs, Tools
 <div>
+  align="center"
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/> 
   <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="40" height="40"/> 
   <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-plain.svg" title="C#" **alt="C#" width="40" height="40"/>
