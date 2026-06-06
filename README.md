@@ -1,5 +1,5 @@
 # Who
-I am a maker. 
+I make stuff. 
 
 # Where
 - Embedded systems 
