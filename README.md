@@ -1,7 +1,9 @@
 # Who
 I make stuff. 
 
-# Where
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DutchOrange-1&theme=highcontrast)](https://git.io/streak-stats)
+
+# With
 - Embedded systems 
 - CAD
 - PCB / Circuit design
@@ -27,7 +29,24 @@ I make stuff.
   <img src="https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original.svg" title="arduino" **alt="arduino" width="40" height="40"/>
 </div>
 
-# Some Stats
+# What
+For some quick checks on some of my projects, include:
+
+## EMK 310 Robot Race day
+This was a multi color line following car, that was built from the ground up, and coded purely in assembly. Check it out [here](https://github.com/DutchOrange-1/EMK310-2026-MARV-Race-G50). 
+
+## Solar Optomisation
+[This project](https://github.com/DutchOrange-1/Solar-Optimisation) was a fun, full stack development project, where a solar system was optimized through the use of weather data, loadsheding data and a small machine learning model. 
+
+## Oscilloscope Clock
+An Oscilloscope that is used as a clock! Nothing new, but its fun and an ongoing project found [here](https://github.com/DutchOrange-1/Oscilloscope-Digital-clock-WAV-based). The goal being to grow it from the ground up, and using extremely light hardware, and being able to run on its own. 
+
+
+## Local PCB Ingraving
+This is more of a [research project](https://github.com/DutchOrange-1/Fiber-Laser-PCB-Manufacturing), to find local people in South Africa willing to use their fiber laser to engrave PCBs. The benefits being that the holes and traces can be created given the correct settings. 
+
+
+# Waka
 
 <p align="center">
 
@@ -38,11 +57,8 @@ I make stuff.
 
 </p>
 
-
-
-
 <!-- 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=DutchOrange-1&theme=highcontrast)](https://git.io/streak-stats)
+<--
 -----------------------
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=DutchOrange-1&theme=gruvbox&custom_title=My+Stats)
 
@@ -56,4 +72,4 @@ I make stuff.
 
 [![Dutchs's GitHub stats](https://github-stats-extended-dutch-orange.vercel.app/api/?username=anuraghazra&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Anurag's+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)](https://github-stats-extended.vercel.app/api/?username=anuraghazra&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Anurag's+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)
 
- -->
+ --> 
