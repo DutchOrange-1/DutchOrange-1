@@ -29,23 +29,14 @@ I am a maker.
 
 # Some Stats
 
-<table>
-  <tr>
-    <td valign="middle">
-      <img
-        src="https://github-stats-extended.vercel.app/api/top-langs?username=DutchOrange-1&langs_count=7&theme=great-gatsby"
-        width="100%"
-      />
-    </td>
+<p align="center">
 
-  <td valign="middle">
-      <img
-        src="https://github-stats-extended.vercel.app/api?username=DutchOrange-1&rank_icon=default&hide_rank=true&custom_title=General%20&show_icons=true&include_all_commits=true&theme=great-gatsby"
-        width="100%"
-      />
-    </td>
-  </tr>
-</table>
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=DutchOrange-1&langs_count=7&theme=great-gatsby)](https://github-stats-extended.vercel.app/api/top-langs?username=DutchOrange-1&langs_count=7&theme=great-gatsby)
+
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=DutchOrange-1&rank_icon=default&hide_rank=true&custom_title=General%20Stats&show_icons=true&include_all_commits=true&theme=great-gatsby)](https://github-stats-extended.vercel.app/api?username=DutchOrange-1&rank_icon=default&hide_rank=true&custom_title=General%20Stats&show_icons=true&include_all_commits=true&theme=great-gatsby)
+
+</p>
 
 
 
