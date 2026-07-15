@@ -57,6 +57,24 @@ This is more of a [research project](https://github.com/DutchOrange-1/Fiber-Lase
 
 </p>
 
+# Random tips and Tricks
+## Feko Completion Message
+Add
+```lua
+file:write(winln([[curl.exe -d "Sim is done." https://ntfy.sh/ntfy_server_name]]))
+```
+To File ``C:\ProgramData\altair\feko\2026.0_393f94f7\installedapplicationmacrolibrary\Shared\ParameterSweep\utils\parameter_sweep_helper.lua`` around line 487. <br>
+You can also add code in the Lua script, such as:
+```lua
+local message = "Sim started."
+    os.execute(string.format(
+        'curl.exe -d "%s" https://ntfy.sh/ntfy_server',
+        message
+    ))
+```
+
+
+
 <!-- 
 <--
 -----------------------
