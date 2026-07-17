@@ -72,6 +72,10 @@ local message = "Sim started: ".. os.date("%Y-%m-%d %H:%M:%S")
         message
     ))
 ```
+Or if it's a normal sim, and you're just doing a large sweep of frequencies, the easiest is to use the Feko terminal and add your commands, like so:
+```bash
+runfeko project_XXX --run-from-gui && curl.exe -d "Sim is done: %date% %time%" https://ntfy.sh/ntf_server
+```
 
 
 
