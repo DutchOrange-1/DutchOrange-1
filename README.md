@@ -95,3 +95,10 @@ runfeko project_XXX --run-from-gui && curl.exe -d "Sim is done: %date% %time%" h
 [![Dutchs's GitHub stats](https://github-stats-extended-dutch-orange.vercel.app/api/?username=anuraghazra&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Anurag's+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)](https://github-stats-extended.vercel.app/api/?username=anuraghazra&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Anurag's+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)
 
  --> 
+## Check your laptop charging rate (Windows)
+```bash
+gwmi -Class batterystatus -Namespace root\wmi |
+>> Select-Object ChargeRate, Charging, DischargeRate, Discharging, PowerOnline, RemainingCapacity
+```
+
+
