@@ -97,8 +97,7 @@ runfeko project_XXX --run-from-gui && curl.exe -d "Sim is done: %date% %time%" h
  --> 
 ## Check your laptop charging rate (Windows)
 ```bash
-gwmi -Class batterystatus -Namespace root\wmi |
->> Select-Object ChargeRate, Charging, DischargeRate, Discharging, PowerOnline, RemainingCapacity
+gwmi -Class batterystatus -Namespace root\wmi | Select-Object ChargeRate, Charging, DischargeRate, Discharging, PowerOnline, RemainingCapacity
 ```
 
 
