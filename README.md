@@ -109,4 +109,24 @@ EN / RESET <───> GND                 NA
 ```
 
 
+## Self-hosted LaTeX:
+Follow this [link](https://github.com/overleaf/toolkit/blob/master/doc/quick-start-guide.md). 
+Probably need to install these packages on the docker:
+```
+tlmgr install xxx
+float
+listings
+pdfpages
+titlesec
+subcaption
+```
+Or just do:
+```
+tlmgr install \
+        collection-latexrecommended \
+        collection-latexextra \
+        collection-fontsrecommended \
+        collection-mathscience
+```
+
 
