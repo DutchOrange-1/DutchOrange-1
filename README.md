@@ -111,20 +111,15 @@ EN / RESET <───> GND                 NA
 
 ## Self-hosted LaTeX:
 Follow this [link](https://github.com/overleaf/toolkit/blob/master/doc/quick-start-guide.md). 
-Probably need to install these packages on the docker:
+Probably need to install these packages in Docker:
 ```
 docker exec -it sharelatex bash
 ```
 and
 ```
-tlmgr install xxx
-float
-listings
-pdfpages
-titlesec
-subcaption
+tlmgr install float listings pdfpages titlesec subcaption subfigure collection-mathscience
 ```
-Or just do:
+Or do:
 ```
 tlmgr install \
         collection-latexrecommended \
