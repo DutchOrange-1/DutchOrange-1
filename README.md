@@ -117,7 +117,7 @@ docker exec -it sharelatex bash
 ```
 and
 ```
-tlmgr install float listings pdfpages titlesec subcaption subfigure collection-mathscience
+tlmgr install float listings pdfpages titlesec subfigure collection-mathscience collection-latexrecommended
 ```
 Or do:
 ```
