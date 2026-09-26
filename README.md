@@ -33,17 +33,17 @@ I make stuff.
 For some quick checks on some of my projects, include:
 
 ## EMK 310 Robot Race day
-This was a multi color line following car, that was built from the ground up, and coded purely in assembly. Check it out [here](https://github.com/DutchOrange-1/EMK310-2026-MARV-Race-G50). 
+This was a multi-colour line-following car, that was built from the ground up, and coded purely in assembly. Check it out [here](https://github.com/DutchOrange-1/EMK310-2026-MARV-Race-G50). 
 
-## Solar Optomisation
-[This project](https://github.com/DutchOrange-1/Solar-Optimisation) was a fun, full stack development project, where a solar system was optimized through the use of weather data, loadsheding data and a small machine learning model. 
+## Solar Optimisation
+[This project](https://github.com/DutchOrange-1/Solar-Optimisation) was a fun, full-stack development project, where a solar system was optimised through the use of weather data, loadshedding data and a small machine learning model. 
 
 ## Oscilloscope Clock
-An Oscilloscope that is used as a clock! Nothing new, but its fun and an ongoing project found [here](https://github.com/DutchOrange-1/Oscilloscope-Digital-clock-WAV-based). The goal being to grow it from the ground up, and using extremely light hardware, and being able to run on its own. 
+An Oscilloscope that is used as a clock! Nothing new, but its fun and an ongoing project found [here](https://github.com/DutchOrange-1/Oscilloscope-Digital-clock-WAV-based). The goal is to grow it from the ground up, and using extremely light hardware, and being able to run on its own. 
 
 
-## Local PCB Ingraving
-This is more of a [research project](https://github.com/DutchOrange-1/Fiber-Laser-PCB-Manufacturing), to find local people in South Africa willing to use their fiber laser to engrave PCBs. The benefits being that the holes and traces can be created given the correct settings. 
+## Local PCB Engraving
+This is more of a [research project](https://github.com/DutchOrange-1/Fiber-Laser-PCB-Manufacturing), to find local people in South Africa willing to use their fibre laser to engrave PCBs. The benefits being that the holes and traces can be created given the correct settings. 
 
 
 # Waka
@@ -56,76 +56,4 @@ This is more of a [research project](https://github.com/DutchOrange-1/Fiber-Lase
 [![GitHub Stats](https://github-stats-extended.vercel.app/api?username=DutchOrange-1&rank_icon=default&hide_rank=true&custom_title=General%20Stats&show_icons=true&include_all_commits=true&theme=great-gatsby)](https://github-stats-extended.vercel.app/api?username=DutchOrange-1&rank_icon=default&hide_rank=true&custom_title=General%20Stats&show_icons=true&include_all_commits=true&theme=great-gatsby)
 
 </p>
-
-# Random tips and Tricks
-## Feko Completion Message
-Add
-```lua
-file:write(winln([[curl.exe -d "Sim is done: %date% %time%" https://ntfy.sh/ntfy_server_name]]))
-```
-To File ``C:\ProgramData\altair\feko\2026.0_xxx\installedapplicationmacrolibrary\Shared\ParameterSweep\utils\parameter_sweep_helper.lua`` around line 487. <br>
-You can also add code in the Lua script, such as:
-```lua
-local message = "Sim started: ".. os.date("%Y-%m-%d %H:%M:%S")
-    os.execute(string.format(
-        'curl.exe -d "%s" https://ntfy.sh/ntfy_server',
-        message
-    ))
-```
-Or if it's a normal sim, and you're just doing a large sweep of frequencies, the easiest is to use the Feko terminal and add your commands, like so:
-```bash
-runfeko project_XXX --run-from-gui && curl.exe -d "Sim is done: %date% %time%" https://ntfy.sh/ntf_server
-```
-
-
-
-<!-- 
-<--
------------------------
-![GitHub Stats Card](https://ghstats.dev/api/card?username=DutchOrange-1&theme=gruvbox&custom_title=My+Stats)
-
---------
-[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=DutchOrange-1)]()
-
--------
-[![Dutch's GitHub stats](https://github-stats-extended-dutch-orange.vercel.app/api?username=DutchOrange-1)]()
-
------------------------------
-
-[![Dutchs's GitHub stats](https://github-stats-extended-dutch-orange.vercel.app/api/?username=anuraghazra&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Anurag's+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)](https://github-stats-extended.vercel.app/api/?username=anuraghazra&show_icons=true&theme=calm&rank_icon=github&include_all_commits=true&custom_title=Anurag's+Stats&disable_animations=true&number_format=long&show=prs_merged_percentage,prs_reviewed)
- --> 
-## Check your laptop charging rate (Windows)
-```bash
-gwmi -Class batterystatus -Namespace root\wmi | Select-Object ChargeRate, Charging, DischargeRate, Discharging, PowerOnline, RemainingCapacity
-```
-## ESP to ESP Flashing:
-```
-WORKING ESP32 DEVKIT                 TARGET ESP32 DEVKIT
-────────────────────                 ──────────────────
-USB-UART TX  ──────────────────────> U0RXD / GPIO3
-USB-UART RX  <────────────────────── U0TXD / GPIO1
-GND          ──────────────────────> GND
-EN / RESET <───> GND                 NA 
-```
-
-
-## Self-hosted LaTeX:
-Follow this [link](https://github.com/overleaf/toolkit/blob/master/doc/quick-start-guide.md). 
-Probably need to install these packages in Docker:
-```
-docker exec -it sharelatex bash
-```
-and
-```
-tlmgr install float listings pdfpages titlesec subfigure collection-mathscience collection-latexrecommended
-```
-Or do:
-```
-tlmgr install \
-        collection-latexrecommended \
-        collection-latexextra \
-        collection-fontsrecommended \
-        collection-mathscience
-```
-
 
