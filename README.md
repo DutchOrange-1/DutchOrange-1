@@ -30,7 +30,8 @@ I make stuff.
 </div>
 
 # What
-For some quick checks on some of my projects, include:
+For some quick checks on some of my projects, include: <br>
+Also check out some of my [words of wisdom](./WordsOfWisdom.MD) from past projects (These are more for me). 
 
 ## EMK 310 Robot Race day
 This was a multi-colour line-following car, that was built from the ground up, and coded purely in assembly. Check it out [here](https://github.com/DutchOrange-1/EMK310-2026-MARV-Race-G50). 
